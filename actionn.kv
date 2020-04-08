@@ -1,0 +1,141 @@
+<Hidden_ActionPrevious@ActionPrevious>:
+	with_previous: False
+	on_press: print('')
+	title: ''
+	size_hint: None, None
+	size: 0,0
+
+<MainWindow>:
+	name: 'main'
+	
+	
+	BoxLayout:
+		orientation: 'vertical'
+
+		canvas.before:
+			Color:
+				rgb: .6, .6, .6
+			Rectangle:
+				size: self.size
+				source: 'background.png'
+
+		ActionBar:
+			id: abu
+			##background_image: 'background.png'
+			size_hint: (1, 0.13)
+			pos_hint: {'top':1}
+		
+			ActionView:
+				id: avu
+
+				Hidden_ActionPrevious:
+
+			
+		ScrollView:
+			do_scroll_x: False
+			do_scroll_y: True
+			
+			Label:
+				name: 'txt'
+				id: txt
+				text: 'Hello, \nHow can I help you..'
+				font_size: 40
+				halign: 'center'
+				##valign: 'bottom'
+				multiline: True
+				##size_hint_y: None  
+				height: self.texture_size[1]
+				
+			
+		ActionBar:
+			id: abd
+			background_image: 'background.png'
+			size_hint: (1, 0.13)
+			pos_hint: {'bottom':1}
+		
+			ActionView:
+				id: avd
+
+				Hidden_ActionPrevious:
+
+   
+<ExitWindow>:
+    name: "exit"
+
+<ImageWindow>:
+
+	ActionBar:
+		id: abi
+		background_image: 'background.png'
+		size_hint: (1, 0.13)
+		pos_hint: {'top':1}
+		
+		ActionView:
+			id: avi
+
+			Hidden_ActionPrevious:
+	
+	Image:
+		id: image
+		##source: '3.301.jpg'
+		##size: self.texture_size
+		size_hint: (0.9,0.9)
+		pos_hint: {'x':0.05, 'top': 0.85}
+		allow_stretch: False
+		
+<UserManualWindow>:
+	
+	name: "UserManual"
+	
+	ActionBar:
+		id: abm
+		background_image: 'background.png'
+		size_hint: (1, 0.13)
+		pos_hint: {'top':1}
+		
+		ActionView:
+			id: avm
+
+			Hidden_ActionPrevious:
+	
+	Image:
+		id: manual
+		source: 'manual.png'
+		size: self.texture_size
+		##allow_stretch: True
+
+<ReadMeWindow>:
+	
+	name: "ReadMe"
+	
+	BoxLayout:
+		orientation: 'vertical'
+
+		ActionBar:
+			id: abr
+			background_image: 'background.png'
+			size_hint: (1, 0.13)
+			pos_hint: {'top':1}
+		
+			ActionView:
+				id: avr
+
+				Hidden_ActionPrevious:
+				
+				
+		ScrollView:
+			do_scroll_x: True
+			do_scroll_y: True
+	
+			Label:
+				id: readme
+				font_size: 20
+				multiline: True
+				size_hint_y: None 
+				size_hint_x: None 
+				##h_align: 'center'
+				height: self.texture_size[1]
+				width: self.texture_size[0] 
+				text: 'Window Description:\n\n1)  Home Button: For coming back to the home page. \n2)  Text Area or Search Area: User can enter their query here using a keyboard.\n3)  Search Button: Once the user is done writing his query in the text area, he can press this button to get answer or simply press \nEnter on the keyboard.\n4)  Microphone Input Button: User can search for answers to his query simply by asking to this application instead of actually typing \nhis query in search area. \nTo do this, he can just speak up his question after clicking this button and immediately releasing it.\nThe application may take some time to resolve the users query. The user needs to patiently wait for the application to respond.\n** The user is instructed not to long press this button.\n5)  Exit Button: Once the user is done with his search, he can press this button to exit the application and let other users use it.\nAfter pressing this button, the user can no more ask other questions from the same calling booth. As soon as this button is pressed,\nthe BOT would return to its original Hotspot position.\n Querying the application with phrases like Bye, See you later also has the same outcome of pressing this button.\n6)  User Manual Button: This button is intended to guide the users about the usage of this application for their purposes.\nOn pressing this button, application guides user to a help page which explains the user about what all can the application do for him.\n7)  Speaker Button: This is a toggle button which is in OFF state by default. By clicking this button ON, the application enables speaker.\nHence, the user could hear answer to his queries in case he is unable to read or wants to hear the response to his query.\nIt can be disabled by again clicking on it.\n8)  Answer Area: The responses to users query appear here.\n \n \nThis Chatbot application solves the queries related:\n1)  Admission Process \n2)  Location of class rooms/faculties/labs/ staff rooms and so on\n3)  Procedure for Submitting forms such as Bonafide/Railway Concession\n4)  Access any circulars such as time table, exam schedule, fee details updated by college in their website.\n\n\nThe application pops up a dialog box after 3 minutes of user inactivity i.e. user is on same page or same query for 3 minutes.\nUser can click Continue button if he wants to continue reading or press Exit button if he is done or press Home to ask next question.\nIf none of the above options are chosen, the application would wait for 20 seconds for user to press any of the above buttons.\nIf still nothing is pressed, the application would exit and the BOT would return to its original hotspot.But, if the user presses Continue,\nagain the dialog box would appear after every minute of user inactivity. \n\n\nA project initiative by our Hon. Principal Dr. M.D. Patil Sir' 
+
+
