@@ -1,0 +1,279 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, how can I help", "Good to see you", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "ok bye", "thankyou"],
+         "responses": ["Have a nice day", "Bye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", " What is College Timing", "What are working hours of college"],
+         "responses": ["We're open every day 8am-7pm", "Our hours are 8am-7pm every day", "Its 8am-7pm"]
+        },
+		{"tag": "know me",
+         "patterns": ["What can you do for me?", "What all you can do", "How can you help me?", "How helpful are you", "How to operate you", "Help me", "Help please" ],
+         "responses": ["manual.png", "Here's the quick manual for you", "Please go through the manual shown"]
+        },
+{"tag": "class301",
+"patterns": ["where is classroom 301?", " how to reach 301?", "where to find room number 301?", "direct me to room number 301?", "Room number three zero one", "301"],
+"responses": ["3.301.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class302",
+"patterns": ["where is classroom 302?", "how to reach 302?", "where to find room number 302?", "direct me to room number 302?", "Room number three zero two", "302"],
+"responses": ["3.302.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class303",
+"patterns": ["where is classroom 303?", "how to reach 303?", "where to find room number 303?", "direct me to room number 303?", "How to get to the HOD cabin?", "Where to find cabin for EXTC HOD?", "Where is Head of Department of EXTC branch?", "Where is Head of Department of Electronics And Telecommunication Branch?", "Room number three zero three", "303" ],
+"responses": ["HODCabin.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class304",
+"patterns": ["where is classroom 304?", "how to reach 304?", "where to find room number 304?", "direct me to room number 304?", "Room number three zero four", "304"],
+"responses": ["3.304.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class305",
+"patterns": ["where is classroom 305?", "how to reach 305?", "where to find room number 305?", "direct me to room number 305?", "Room number three zero five", "305"],
+"responses": ["3.305.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class306",
+"patterns": ["where is  classroom 306?", "how to reach 306?", "where to find room number 306?", "Direct me to room number 306?", "Room number three zero six", "306"],
+"responses": ["3.306.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class307",
+"patterns": ["where is classroom 307?", "how to reach 307?", "where to find room number 307?", "direct me to room number 307?","Where is store room on third floor?", "Where is third floor store room?","Store room extc department", "Extc store room", "Room number three zero seven", "307"],
+"responses": ["3.307.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "lab308",
+"patterns": ["where is  lab number 308?", "how to reach 308?", "where to find room number 308?", "direct me to room number 308?", "Advance Communication Lab", "Lab 308", "Room number three zero eight", "308"],
+"responses": ["3.308.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class309",
+"patterns": ["where is lab number 309?", "how to reach 309?", "where to find room number 309?", "direct me to room number 309?", "Signal Processing Lab", "Lab 309", "Room number three zero nine", "309"],
+"responses": ["3.309.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "library",
+"patterns": ["where is classroom 310?", "how to reach 310?", "where to find room number 310?", "direct me to room number 310?", "where is  library?", "how to go college library?", "where to find library?", "direct me to library?", "library", "Room number three hundered ten", "310", "three one zero"],
+"responses": ["Library1.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class311",
+"patterns": ["where is  classroom 311?", "how to reach 311?", "where to find room number 311?", "Direct me to room number 311?", "Room number three one one", "311", "three hundered eleven"],
+"responses": ["3.311.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class312",
+"patterns": ["where is  classroom 312?", "how to reach 312?", "where to find room number 312?", "Direct me to room number 312?", "Room number three one two", "312", "three hundered twelve"],
+"responses": ["3.312.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "class313",
+"patterns": ["where is  classroom 313?", "how to reach 313?", "where to find room number 313?", "Direct me to room number 313?", "R and D centre?", "R and D office?", "Where is R and D centre?", "Where is R and D office?", "Where is research and development centre?", "Where is research and development office?", "Room number three one three", "313", "three hundered thirteen"],
+"responses": ["3.313.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "g_washroom",
+"patterns": ["Where is the washroom?", "third floor washroom", "Where is the girl’s washroom?", "Girls washroom", "Women’s washroom","Ladies washroom", "Where is toilet?", "Third floor toilet", "girls toilet", "Where is girl’s restroom?"],
+"responses": ["GirlsWashroom.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "b_washroom",
+"patterns": ["Where is the washroom?", "third floor washroom", "Where is the boy’s washroom?", "Boys washroom", "Men’s washroom","Gents washroom", "Where is toilet?", "Third floor toilet", "boys toilet", "Where is boy’s restroom?"],
+"responses": ["BoysWashroom.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+},
+
+{"tag": "bonafide",
+"patterns": ["how to apply for bonafide?", "How to fill application form for bonafide?", "Application form for bonafide ?","bonafide"],
+"responses": ["bonafide.jpg", "Go through these steps", "Follow the procedure shown", "Here is the process for Bonafide Form Application", "Result of your querry is displayed"]
+},
+
+{"tag": "railway_concession",
+"patterns": ["how to apply for Railway concession?", "How to fill application form for Railway concession?", "Application form for Railway concession?", "Railway concession application form?", "railway concession"],
+"responses": ["RailwayConcession.jpg", "Go through these steps", "Follow the procedure shown", "Here is the process for Railway Concession Application", "Result of your querry is displayed"]
+},
+
+{"tag": "scholarship",
+"patterns": ["how to apply for Scholarship?", "How to fill scholarship form?", "Application form for scholarship?", "Scholarship form?", "Scholarship"],
+"responses": ["ScholarshipForm.jpg", "Go through these steps", "Follow the procedure shown", "Here is the process for Scholarship Form Application", "Result of your querry is displayed"]
+},
+
+{"tag": "registration",
+         "patterns": ["What are the steps for sem Registration cum fee payment?", "Even sem Registration process"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-even-sem-registration-cum-payment-of-fees-for-academic-year-2019-20/"]
+ },
+{"tag": "refund",
+         "patterns": ["Notice for refund of Scholarship","Notice for refund of freeship"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-refund-of-scholarship-freeship/"]
+ },
+{"tag": "exam_notice",
+         "patterns": ["Examination Notification of Semester 3","Examination Notification of Semester 4", "Examination Notification of Semester 5", "Examination Notification of Semester 6"],
+         "responses": ["http://www.rait.ac.in/homepage/examination-notification-of-semester-iii-iv-v-vi-nov-2019/"]
+ },
+{"tag": "urgent_notice",
+         "patterns": ["Urgent notice for FE","Urgent notice for BE"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-exam-form-november-2019/"]
+ },
+{"tag": "vacancy",
+         "patterns": ["First Year Vacancy Notice and Schedule"],
+         "responses": ["http://www.rait.ac.in/homepage/first-year-vacancy-notice-and-schedule-2019-20/"]
+ },
+{"tag": "merit_list",
+         "patterns": ["First Year Vacancy General Merit List"],
+         "responses": ["http://www.rait.ac.in/homepage/first-year-vacancy-general-merit-list-2019-20/"]
+ },
+{"tag": "orientation",
+         "patterns": ["Notice For First Year Orientation Program"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-first-year-orientation-program-2019-20/"]
+ },
+{"tag": "calender",
+         "patterns": ["Academic Calendar Odd Sem"],
+         "responses": ["http://www.rait.ac.in/homepage/academic-calendar-odd-sem-2019-20/"]
+ },
+{"tag": "fe",
+         "patterns": ["Notice for FE CAP Admission"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-fe-cap-admission-2019-20/"]
+ },
+{"tag": "scholarship",
+         "patterns": ["Scholarship Notice"],
+         "responses": ["http://www.rait.ac.in/homepage/scholarship-notice-for-a-y-2019-20/"]
+ },
+{"tag": "me",
+         "patterns": ["Notice for ME CAP Admission"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-me-cap-admission-2019-20/"]
+ },
+{"tag": "change",
+         "patterns": ["Notice for Change in Branch or Shift of Second Year Engineering"],
+         "responses": ["http://www.rait.ac.in/homepage/urgent-notice-for-change-in-branch-shift-of-second-year-engg-a-y-2019-20/"]
+ },
+{"tag": "choice",
+         "patterns": ["Courses Offered and Choice Code"],
+         "responses": ["http://www.rait.ac.in/homepage/courses-offered-choice-code/"]
+ },
+{"tag": "new_schol",
+         "patterns": ["Notice for New Admission Scholarship"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-new-admission-scholarship-2019-20/"]
+ },
+{"tag": "be_fee",
+         "patterns": ["Notice For BE Fee Structure"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-be-fee-structure-ay-2019-20/"]
+ },
+{"tag": "se_fee",
+         "patterns": ["Notice For SE Fee Structure"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-se-fee-structure-ay-2019-20/"]
+ },
+{"tag": "te_fee",
+         "patterns": ["Notice For TE Fee Structure"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-te-fee-structure-ay-2019-20/"]
+ },
+{"tag": "me_fee",
+         "patterns": ["Notice For ME Fee Structure"],
+         "responses": ["http://www.rait.ac.in/homepage/notice-for-me-fee-structure-ay-2019-20/"]
+ },
+{"tag": "ssr1",
+         "patterns": ["NAAC SSR volume 1"],
+         "responses": ["https://drive.google.com/file/d/0BzJoJJ9977MhUWRoeTd3MGpZM2M/view"]
+ },
+{"tag": "ssr2",
+         "patterns": ["NAAC SSR volume 2"],
+         "responses": ["https://drive.google.com/file/d/0BzJoJJ9977MhblVrUTZCbGtESWM/view"]
+ },
+{"tag": "Rank",
+         "patterns": ["National Institutional Ranking"],
+         "responses": ["https://www.nirfindia.org/2019/EngineeringRanking.html"]
+ },
+{"tag": "site",
+         "patterns": ["RAIT website"],
+         "responses": ["http://www.rait.ac.in/"]
+ },
+{"tag": "about",
+         "patterns": ["About the institute", "About RAIT"],
+         "responses": ["http://www.rait.ac.in/about-rait/"]
+ },
+{"tag": "mvg",
+         "patterns": ["Mission, Vision and Goal of RAIT"],
+         "responses": ["http://www.rait.ac.in/mission-vision-goal/"]
+ },
+{"tag": "board",
+         "patterns": ["Board of Governers"],
+         "responses": ["http://www.rait.ac.in/board-governers/"]
+ },
+{"tag": "pd",
+         "patterns": ["President’s Desk"],
+         "responses": ["http://www.rait.ac.in/presidents-desk/"]
+ },
+{"tag": "princi",
+         "patterns": ["Principal’s Desk"],
+         "responses": ["http://www.rait.ac.in/principals-desk/"]
+ },
+{"tag": "council",
+         "patterns": ["College Academic Council"],
+         "responses": ["http://www.rait.ac.in/college-academic-council/"]
+ },
+{"tag": "intake",
+         "patterns": ["Total branch wise Intake"],
+         "responses": ["http://www.rait.ac.in/total-intake/"]
+ },
+{"tag": "extc",
+         "patterns": ["Department of Electronics & Telecommunication Engineering"],
+         "responses": ["http://www.rait.ac.in/department-electronics-and-telecom-engineering/"]
+ },
+{"tag": "fy",
+         "patterns": ["Department of Engineering Sciences"],
+         "responses": ["http://www.rait.ac.in/department-engineering-sciences/"]
+ },
+{"tag": "ce",
+         "patterns": ["Department of Computer Engineering"],
+         "responses": ["http://www.rait.ac.in/department-computer-engineering/"]
+ },
+{"tag": "it",
+         "patterns": ["Department of Information Technology"],
+         "responses": ["http://www.rait.ac.in/department-information-technology-engineering/"]
+ },
+{"tag": "etrx",
+         "patterns": ["Department of Electronics Engineering"],
+         "responses": ["http://www.rait.ac.in/department-electronics-engineering/"]
+ },
+{"tag": "instru",
+         "patterns": ["Department of Instrumentation Engineering"],
+         "responses": ["http://www.rait.ac.in/department-instrumentation-engineering/"]
+ },
+{"tag": "inf",
+         "patterns": ["Infrastructure and Facilities"],
+         "responses": ["http://www.rait.ac.in/infrastructure-and-facilities/"]
+ },
+{"tag": "tpc",
+         "patterns": ["Training and Placement Cell"],
+         "responses": ["http://www.rait.ac.in/about-training-and-placement/"]
+ },
+{"tag": "commit",
+         "patterns": ["college Technical Committees"],
+         "responses": ["http://www.rait.ac.in/technical-committees/"]
+ },
+{"tag": "alum",
+         "patterns": ["college alumni"],
+         "responses": ["https://raitalumni.dypatil.edu/"]
+ },
+{"tag": "ana",
+         "patterns": ["Awards and Achievement"],
+         "responses": ["http://www.rait.ac.in/awards-and-achievement/"]
+ },
+{"tag": "admin",
+         "patterns": ["Office and Administrative Department"],
+         "responses": ["http://www.rait.ac.in/administrative-department/"]
+ }
+ 
+]
+}
