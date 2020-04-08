@@ -80,7 +80,7 @@ model = tflearn.DNN(net)
 if os.path.exists(r"model.tflearn.index"):
     model.load("model.tflearn")
 else:
-    model.fit(training, output, n_epoch=1946, batch_size=8, show_metric=True)
+    model.fit(training, output, n_epoch=3000, batch_size=8, show_metric=True)
     model.save("model.tflearn")
     
 
