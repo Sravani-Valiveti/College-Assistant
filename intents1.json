@@ -17,7 +17,7 @@
          "responses": ["We're open every day 8am-7pm", "Our hours are 8am-7pm every day", "Its 8am-7pm"]
         },
 		{"tag": "know me",
-         "patterns": ["What can you do for me?", "What all you can do", "How can you help me?", "How helpful are you", "How to operate you", "Help me", "Help please" ],
+         "patterns": ["What can you do for me?", "What all you can do", "How can you help me?", "How helpful are you", "How to operate you", "Help me", "Help please", "User Guidelines", "Read Me" ],
          "responses": ["manual.png", "Here's the quick manual for you", "Please go through the manual shown"]
         },
 {"tag": "class301",

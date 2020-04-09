@@ -242,7 +242,7 @@ class ActionText(TextInput, ActionItem):
         #print(timep)
         response = chat(self.text)
 
-        if str(response[0][-3::]) in ['jpg','png']:
+        if str(response[0][-3::]) == 'jpg':
             sc = 'not home'
             res = ch(response[1:])
             main.ids['txt'].text, ans_text = str(res), str(res)
@@ -250,6 +250,14 @@ class ActionText(TextInput, ActionItem):
             image.ids['image'].source = response[0]
             sm1.transition = SlideTransition(direction = 'left', duration = 0.5)
             sm1.current = 'image'
+
+        elif str(response[0]) == 'manual.png':
+            sc = 'not home'
+            res = ch(response[1:])
+            main.ids['txt'].text, ans_text = str(res), str(res)
+            speak(res, mic_status)
+            sm1.transition = SlideTransition(direction = 'left', duration = 0.5)
+            sm1.current = 'UserManual'
 
         elif str(response[0][:4]) == 'http':
             #res = response[1]
@@ -400,7 +408,6 @@ class Separator(ActionSeparator):
 class ActionLabel2(Label, ActionItem):
     def __init__(self, *args, **kwargs):
         super(ActionLabel2, self).__init__(*args, **kwargs)
-        self.id = 'topic'
         self.font_size = 40
         self.multiline = False
         self.size_hint_x = 1
@@ -410,7 +417,6 @@ class ActionLabel2(Label, ActionItem):
 class ActionLabel1(Label, ActionItem):
     def __init__(self, *args, **kwargs):
         super(ActionLabel1, self).__init__(*args, **kwargs)
-        self.id = 'topic'
         self.font_size = 40
         self.multiline = False
         self.size_hint_x = 1
